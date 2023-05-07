@@ -1,0 +1,358 @@
+.full_container {
+  background-image: url("./images/signupbg.jpg");
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  
+}
+
+.left_container {
+  width: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 70px 70px 0px;
+  
+
+  .signup_heading{
+      h2{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 48px;
+          text-align: center;
+
+          color: #000000;
+      }
+
+      p{
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 29px;
+          /* identical to box height */
+
+          text-align: center;
+
+          color: #000000;
+      }
+      
+  }
+  .signup_form{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      div{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          row-gap: 10px;
+      }
+      label{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29px;
+          /* identical to box height */
+          text-align: center;
+          color: #000000;
+      }
+      input{
+          background: #FFFFFF;
+          border: 2px solid #BDBDBD;
+          border-radius: 7px;
+          width: 400px;
+          height: 50px;
+      }
+
+      .signup_button{
+          button{
+              width: 400px;
+              height: 65px;
+              background: #813EF9;
+              border: 0px;
+              border-radius: 10px;
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 30px;
+              color: #FFFFFF;
+          }
+          
+      }
+  }
+}
+
+.right_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  p{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 178.5%;
+      /* or 54px */
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 20px #000000;
+  
+  }
+}
+
+
+
+
+.navbar {
+  margin: 0px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right:10%;
+
+  
+    .navbar-logo {
+      cursor: pointer;
+    }
+  
+  
+    .nav-menu {
+
+      .nav-item {
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 20px;
+      }
+      .nav-links {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .nav-links:hover {
+        border-bottom: 2px solid #fff;
+       transition: all 0.2s ease-out;
+      }
+    }
+
+}
+
+
+.home,
+.ourmission,
+.aboutus {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.ourmission {
+    background-image: url('./images/ourmission.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.aboutus {
+    background-image: url('./images/aboutus.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+
+
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container{
+  background: url('./images/manish/img-home.jpg') center center/cover
+  no-repeat;
+  height:100vh;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+
+}
+
+.hero-container > h1{
+  color: #fff;
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.hero-container > p{
+  margin-top: 400px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande',
+  'Lucida Sans',Arial sans-serif;
+}
+
+.hero-btns{
+  margin-top: 25px;
+}
+
+.hero-btns .btn{
+  margin:6px;
+}
+
+.fa-play-circle{
+  margin-left:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  box-sizing: border-box;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.cards__item__img:hover {
+  transform: scale(1.1);
+}
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item__text {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+
